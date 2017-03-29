@@ -4,22 +4,18 @@ angular
     	$stateProvider
     		.state('home', {
     			url: '/',
-    			templateUrl: 'views/home.html',
-    			controller: ''
+    			templateUrl: 'views/home.html'
     		})
     		.state('home.notifications', {
     			url: 'notifications',
-    			templateUrl: 'views/home/notifications.html',
-    			controller: ''
+    			templateUrl: 'views/home/notifications.html'
     		})
     		.state('home.timeline', {
     			url: 'timeline',
-    			templateUrl: 'views/home/timeline.html',
-    			controller: ''
+    			templateUrl: 'views/home/timeline.html'
     		})
     		.state('home.user', {
     			url: 'user',
-    			templateUrl: 'views/home/user.html',
-    			controller: ''
+    			templateUrl: 'views/home/user.html'
     		})
     });
